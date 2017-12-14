@@ -1,0 +1,24 @@
+{
+  "name": "bitecodes/google-safe-browsing",
+  "description": "Client to use Google's Safe Browsing API (v4)",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Uhlmann",
+      "email": "thomas@bite.codes"
+    }
+  ],
+  "require": {
+    "php-http/client-implementation": "^1.0",
+    "php-http/guzzle6-adapter": "^1.1"
+  },
+  "require-dev": {
+    "php-http/mock-client": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "BiteCodes\\SafeBrowsing\\": "src"
+    }
+  }
+}
