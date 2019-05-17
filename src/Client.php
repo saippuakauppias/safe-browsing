@@ -1,10 +1,10 @@
 <?php
 
-namespace BiteCodes\SafeBrowsing;
+namespace Saippuakauppias\SafeBrowsing;
 
-use BiteCodes\SafeBrowsing\Type\PlatformType;
-use BiteCodes\SafeBrowsing\Type\ThreatEntryType;
-use BiteCodes\SafeBrowsing\Type\ThreatType;
+use Saippuakauppias\SafeBrowsing\Type\PlatformType;
+use Saippuakauppias\SafeBrowsing\Type\ThreatEntryType;
+use Saippuakauppias\SafeBrowsing\Type\ThreatType;
 use Http\Client\HttpClient;
 use Http\Discovery\MessageFactoryDiscovery;
 use Http\Message\RequestFactory;

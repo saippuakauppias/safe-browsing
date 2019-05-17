@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "BiteCodes\\SafeBrowsing\\": "src"
+      "Saippuakauppias\\SafeBrowsing\\": "src"
     }
   }
 }

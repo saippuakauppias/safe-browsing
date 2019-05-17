@@ -1,6 +1,6 @@
 <?php
 
-namespace BiteCodes\SafeBrowsing;
+namespace Saippuakauppias\SafeBrowsing;
 
 class Threat
 {
