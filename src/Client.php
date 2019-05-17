@@ -77,11 +77,13 @@ class Client
         return new Response($response);
     }
 
-    public function setHost($host) {
+    public function setHost($host)
+    {
         $this->host = $host;
     }
 
-    protected function getRequestUrl() {
+    protected function getRequestUrl()
+    {
         return 'https://' . $this->host . $this->url . $this->config['api_key'];
     }
 
