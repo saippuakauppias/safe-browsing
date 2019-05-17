@@ -1,12 +1,18 @@
 {
-  "name": "bitecodes/google-safe-browsing",
-  "description": "Client to use Google's Safe Browsing API (v4)",
+  "name": "saippuakauppias/safe-browsing",
+  "description": "Client to use Google's and Yandex Safe Browsing API (v4)",
+  "keywords": ["GSB", "Safe Browsing", "YSB", "malware", "phishing", "API", "detection"],
   "type": "library",
   "license": "MIT",
   "authors": [
     {
       "name": "Thomas Uhlmann",
-      "email": "thomas@bite.codes"
+      "email": "thomas@bite.codes",
+      "homepage": "https://github.com/bitecodes"
+    },
+    {
+      "name": "Denis Veselov",
+      "homepage": "https://github.com/saippuakauppias"
     }
   ],
   "require": {
