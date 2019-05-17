@@ -1,7 +1,7 @@
 {
   "name": "saippuakauppias/safe-browsing",
   "description": "Client to use Google's and Yandex Safe Browsing API (v4)",
-  "keywords": ["GSB", "Safe Browsing", "YSB", "malware", "phishing", "API", "detection"],
+  "keywords": ["GSB", "Safe Browsing", "YSB", "malware", "phishing", "API", "detection", "threat", "security"],
   "type": "library",
   "license": "MIT",
   "authors": [
