@@ -11,7 +11,9 @@ use Http\Message\RequestFactory;
 
 class Client
 {
-    protected static $url = 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=';
+    protected $host = 'safebrowsing.googleapis.com';
+
+    protected $url = '/v4/threatMatches:find?key=';
 
     /**
      * @var HttpClient
@@ -52,7 +54,7 @@ class Client
             ->getRequestFactory()
             ->createRequest(
                 'POST',
-                self::$url . $this->config['api_key'],
+                $this->getRequestUrl(),
                 ['Content-Type' => 'application/json'],
                 json_encode([
                     'client'     => [
@@ -73,6 +75,14 @@ class Client
         $response = $this->httpClient->sendRequest($request);
 
         return new Response($response);
+    }
+
+    public function setHost($host) {
+        $this->host = $host;
+    }
+
+    protected function getRequestUrl() {
+        return 'https://' . $this->host . $this->url . $this->config['api_key'];
     }
 
     /**
