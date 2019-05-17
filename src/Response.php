@@ -69,7 +69,7 @@ class Response
     /**
      * @return array
      */
-    protected function getContent()
+    public function getContent()
     {
         if (is_null($this->content)) {
             $this->content = json_decode($this->rawResponse->getBody()->getContents(), true);
