@@ -11,7 +11,9 @@
   ],
   "require": {
     "php-http/client-implementation": "^1.0",
-    "php-http/guzzle6-adapter": "^1.1"
+    "php-http/guzzle6-adapter": "^1.1",
+    "php-http/discovery": "^1.6",
+    "php-http/message": "^1.7"
   },
   "require-dev": {
     "php-http/mock-client": "^1.0"
